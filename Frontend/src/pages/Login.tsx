@@ -38,8 +38,8 @@ const Login = () => {
 
     if (password.current === auth.password && email.current === auth.email) {
       console.log("got in");
-      email.current = '';
-      password.current = '';
+      email.current = "";
+      password.current = "";
       setLogin(false);
     } else {
       console.log("try again!");
@@ -56,7 +56,7 @@ const Login = () => {
       <div className={classes["login_container"]}>
         <div className={classes["login_description"]}></div>
         <div className={classes["form_container"]}>
-          {login ?  <h4>Create account</h4>: <h4>Login account</h4>}
+          {login ? <h4>Create account</h4> : <h4>Login account</h4>}
           <form onSubmit={submitHandler} className={classes["form"]}>
             {field.map((data: any, index: number) => {
               return (
