@@ -2,13 +2,14 @@
   background-color: white;
   /* background-color:	#383838; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* width: 90%; */
   margin: 200px auto;
   display: flex;
 }
 
 .login_description {
+  background-image: url("/Users/joseysekine/Documents/programming_projects/Class-booking/Frontend/src/images/tokyo.jpg");
   flex: 1;
+  background-size: cover;
   background-color: #58d0f8;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .form_container h4 {
-  margin-left: 40%;
+  padding-left: 40%;
 }
 
 .form {
