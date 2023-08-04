@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 const InputField: React.FC<{
-  onChange: (e: any) => any;
+  // onChange: (e: any) => any;
   name: string;
   type: string;
   placeholder: string;
@@ -10,7 +10,8 @@ const InputField: React.FC<{
   return (
     <Fragment>
       <input
-        onChange={props.onChange}
+        // {props.onChange && onChange={props.onChange}}
+        // onChange={props.onChange}
         name={props.name}
         type={props.type}
         placeholder={props.placeholder}

@@ -1,0 +1,64 @@
+.booking_container {
+  background-color: #393e46;
+  padding: 100px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.booking_header {
+  width: 80%;
+  text-align: start;
+}
+
+.calender_container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.hours_container {
+  text-align: end;
+  margin: 0;
+  margin-top: 67px;
+}
+
+.hours_container p {
+  margin: 0;
+  padding: 0;
+  height: 62px;
+}
+
+.day_container {
+  border: 1px solid white;
+  width: 25%;
+}
+
+.day_week_day {
+  border-bottom: 1px solid white;
+}
+
+.day_week_day h5 {
+  margin: 10px;
+}
+
+.day_week_day h3 {
+  margin: 10px;
+}
+
+.slot_container {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hour {
+  border-bottom: 1px dotted white;
+  height: 30px;
+}
+
+.mid_hour {
+  height: 30px;
+  border-bottom: 0.5px solid white;
+}

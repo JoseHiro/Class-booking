@@ -61,7 +61,7 @@ const Login = () => {
             {field.map((data: any, index: number) => {
               return (
                 <InputField
-                  onChange={changeInput}
+                  // onChange={changeInput}
                   dataRef={data.ref}
                   key={index}
                   name={data.name}
